@@ -1,5 +1,5 @@
 
-// defines pins numbers
+// defining pin numbers
 const int trigPin = 9;
 const int echo1 = 10;
 const int echo2 = 11;
@@ -10,7 +10,7 @@ int led3=7;
 
 
 
-// defines variables
+// defining variables
 long duration1;
 int distance1;
 int safetyDistance1;
@@ -51,10 +51,7 @@ else{
   digitalWrite(led1, HIGH);
 }
 
-
-///////////////////////////////////
-
-// Clears the trigPin
+//////////////////////
 digitalWrite(trigPin, LOW);
 delayMicroseconds(2);
 digitalWrite(trigPin, HIGH);
@@ -74,7 +71,6 @@ else{
 
 ///////////////////////////////////
 
-// Clears the trigPin
 digitalWrite(trigPin, LOW);
 delayMicroseconds(2);
 digitalWrite(trigPin, HIGH);
